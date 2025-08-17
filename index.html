@@ -7,24 +7,89 @@
   <style>
     body { 
       font-family: Arial, sans-serif; 
-      margin: 40px; 
+      margin: 0; 
       background-color: #f9f9f9;
       color: #333;
     }
-    h1 { color: #007acc; }
-    p { max-width: 600px; line-height: 1.6; }
-    footer { margin-top: 40px; font-size: 0.9em; color: #777; }
+    header {
+      background: #007acc;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 40px;
+    }
+    section {
+      margin-bottom: 60px;
+    }
+    h1, h2 { color: #007acc; }
+    p { max-width: 700px; line-height: 1.6; }
+    footer { 
+      background: #f1f1f1; 
+      text-align: center; 
+      padding: 15px; 
+      font-size: 0.9em; 
+      color: #555; 
+    }
   </style>
 </head>
 <body>
-  <h1>👋 Welcome to My Journey!</h1>
-  <p>
-    Hi, I’m Jatin. I’m documenting my path into <strong>AI × Finance</strong> here.  
-    This blog will track my learnings, projects, and experiments with LLMs.
-  </p>
-  <p>
-    Stay tuned as I build, break, and learn in public 🚀
-  </p>
+  <header>
+    <h1>Jatin Deshpande</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#blog">Blog</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>👋 Welcome to My Journey!</h2>
+      <p>
+        Hi, I’m Jatin. I’m documenting my path into <strong>AI × Finance</strong> here.  
+        This blog will track my learnings, projects, and experiments with LLMs.
+      </p>
+      <p>
+        Stay tuned as I build, break, and learn in public 🚀
+      </p>
+    </section>
+
+    <section id="about">
+      <h2>📌 About Me</h2>
+      <p>
+        I’m passionate about AI, Finance, and building projects that merge the two.  
+        You can connect with me here:
+      </p>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/jatiniitb" target="_blank">GitHub</a></li>
+        <li><a href="mailto:your.email@example.com">Email Me</a></li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>💡 Projects</h2>
+      <p>Coming soon: AI trading strategies, backtesting experiments, and more!</p>
+    </section>
+
+    <section id="blog">
+      <h2>📝 Blog</h2>
+      <p>Updates, learnings, and progress logs will appear here.</p>
+    </section>
+  </main>
+
   <footer>
     © 2025 Jatin Deshpande | Built with GitHub Pages
   </footer>
